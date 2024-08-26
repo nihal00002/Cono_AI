@@ -20,13 +20,7 @@ npm: Package manager for Node.js.
 Python: Version 3.7 or higher.
 OpenAI API Key: Sign up at OpenAI and obtain your API key.
 Installation
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/cono-ai.git
-cd cono-ai
-Install Node.js dependencies:
 
 bash
 Copy code
