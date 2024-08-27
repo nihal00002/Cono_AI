@@ -37,9 +37,9 @@ def start_recognition():
             print(f"Recognized: {transcript}")
             handle_transcript(transcript)
         except sr.UnknownValueError:
-            speak("Sorry, I didn't catch that. Could you please repeat?", display=True)
+            speak("Sorry, I didn't catch that. Could you please repeat?", display=False)
         except sr.RequestError:
-            speak("There seems to be a network issue. Please try again later.", display=True)
+            speak("There seems to be a network issue. Please try again later.", display=False)
 
         if verification_state != 'done' and attempts < max_attempts:
             start_recognition()
